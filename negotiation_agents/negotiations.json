@@ -1,0 +1,181 @@
+{
+  "active_negotiations": {},
+  "completed_negotiations": [
+    {
+      "id": "neg_1_1751214388",
+      "item_id": "1",
+      "item_title": "iPhone 12 Pro",
+      "asking_price": 520,
+      "buyer_id": "buyer_001",
+      "buyer_max_offer": 442,
+      "current_offer": 360,
+      "round": 4,
+      "status": "accepted",
+      "history": [
+        {
+          "round": 1,
+          "from": "buyer",
+          "action": "initial_offer",
+          "amount": 312,
+          "message": "Hi! I'm interested in your iPhone 12 Pro. Would you consider $312?",
+          "timestamp": "2025-06-29T18:26:28.767209"
+        },
+        {
+          "round": 1,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 478,
+          "message": "I can come down to $478, but that's really pushing it for such a quality item.",
+          "timestamp": "2025-06-29T18:26:31.758023"
+        },
+        {
+          "round": 2,
+          "from": "buyer",
+          "action": "counter_offer",
+          "amount": 327,
+          "message": "$327 is my final offer for this quality item.",
+          "timestamp": "2025-06-29T18:26:32.772503"
+        },
+        {
+          "round": 2,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 462,
+          "message": "How about $462? I've had a lot of interest in this iPhone 12 Pro.",
+          "timestamp": "2025-06-29T18:26:34.761608"
+        },
+        {
+          "round": 3,
+          "from": "buyer",
+          "action": "counter_offer",
+          "amount": 343,
+          "message": "$343 is my final offer for this quality item.",
+          "timestamp": "2025-06-29T18:26:34.778136"
+        },
+        {
+          "round": 3,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 447,
+          "message": "How about $447? I've had a lot of interest in this iPhone 12 Pro.",
+          "timestamp": "2025-06-29T18:26:37.765562"
+        },
+        {
+          "round": 4,
+          "from": "buyer",
+          "action": "counter_offer",
+          "amount": 360,
+          "message": "How about $360? That's the best I can do.",
+          "timestamp": "2025-06-29T18:26:38.784508"
+        },
+        {
+          "round": 4,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 431,
+          "message": "I can come down to $431, but that's really pushing it for such a quality item.",
+          "timestamp": "2025-06-29T18:26:40.771133"
+        },
+        {
+          "round": 5,
+          "from": "buyer",
+          "action": "accept",
+          "amount": 431,
+          "message": "Deal! I'll take it for $431. When can we complete the transaction?",
+          "timestamp": "2025-06-29T18:26:40.797457"
+        }
+      ],
+      "started_at": "2025-06-29T18:26:28.767200",
+      "final_price": 431
+    },
+    {
+      "id": "neg_2_1751214389",
+      "item_id": "2",
+      "item_title": "Vintage Leather Sofa",
+      "asking_price": 350,
+      "buyer_id": "buyer_001",
+      "buyer_max_offer": 244,
+      "current_offer": 242,
+      "round": 4,
+      "status": "walked_away",
+      "history": [
+        {
+          "round": 1,
+          "from": "buyer",
+          "action": "initial_offer",
+          "amount": 210,
+          "message": "Hi! I'm interested in your Vintage Leather Sofa. Would you consider $210?",
+          "timestamp": "2025-06-29T18:26:29.768699"
+        },
+        {
+          "round": 1,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 308,
+          "message": "I can come down to $308, but that's really pushing it for such a quality item.",
+          "timestamp": "2025-06-29T18:26:31.759314"
+        },
+        {
+          "round": 2,
+          "from": "buyer",
+          "action": "counter_offer",
+          "amount": 220,
+          "message": "How about $220? That's the best I can do.",
+          "timestamp": "2025-06-29T18:26:32.773716"
+        },
+        {
+          "round": 2,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 297,
+          "message": "I can come down to $297, but that's really pushing it for such a quality item.",
+          "timestamp": "2025-06-29T18:26:34.762290"
+        },
+        {
+          "round": 3,
+          "from": "buyer",
+          "action": "counter_offer",
+          "amount": 231,
+          "message": "Meet me halfway at $231?",
+          "timestamp": "2025-06-29T18:26:34.778426"
+        },
+        {
+          "round": 3,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 287,
+          "message": "$287 and we have a deal. I'm ready to close this now.",
+          "timestamp": "2025-06-29T18:26:37.766975"
+        },
+        {
+          "round": 4,
+          "from": "buyer",
+          "action": "counter_offer",
+          "amount": 242,
+          "message": "I can go up to $242. That's a fair price!",
+          "timestamp": "2025-06-29T18:26:38.786572"
+        },
+        {
+          "round": 4,
+          "from": "seller",
+          "action": "counter_offer",
+          "amount": 276,
+          "message": "I'm motivated to sell, so $276 works for me.",
+          "timestamp": "2025-06-29T18:26:40.774739"
+        },
+        {
+          "round": 5,
+          "from": "buyer",
+          "action": "end",
+          "message": "Thanks for your time, but I can't meet that price. Good luck with the sale!",
+          "timestamp": "2025-06-29T18:26:40.798247"
+        }
+      ],
+      "started_at": "2025-06-29T18:26:29.768688"
+    }
+  ],
+  "agent_status": {
+    "buyer_agent": "idle",
+    "seller_agent": "negotiating"
+  }
+}
