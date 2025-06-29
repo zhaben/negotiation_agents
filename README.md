@@ -1,4 +1,9 @@
-1. Core Agent Files:
+Send your teammate these files to integrate agent
+  negotiation with their existing marketplace:
+
+  📁 Files to Send:
+
+  1. Core Agent Files:
 
   - buyer_agent.py - Buyer agent with max price logic
   - seller_agent.py - Seller agent with min price logic
